@@ -1,0 +1,113 @@
+.footer {
+    background-color: #F7F5FA;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 60px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.link {
+    font-size: 18px;
+    font-family: Figtree, sans-serif;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 6px;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #814DDA;
+}
+
+.bottomText {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    color: #814DDA;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footerContainer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.brandName {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 12px;
+    color: #777;
+    margin: 0;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #999;
+}
+
+@media (max-width: 768px) {
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    .footerContainer2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* justify-content: center; */
+    }
+
+    .logoBox {
+        flex-direction: column;
+        align-items: center;
+    }
+}
